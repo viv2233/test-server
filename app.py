@@ -20,6 +20,10 @@ socketio = SocketIO(app, cors_allowed_origins=["http://localhost:3000"])
 def index():
     logger.info("HTTP GET request received at /")
     return "Server is working"
+@app.route('/test')
+def test():
+    logger.info("HTTP GET request received at /test route")
+    return "Test route"
 
 @socketio.on('message')
 def handle_message(message):
