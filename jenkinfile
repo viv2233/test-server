@@ -6,8 +6,8 @@
         GITHUB_REPO = 'https://github.com/vivek22333/test-server.git'
         DOCKER_IMAGE_NAME = 'myapp'  // Replace with your Docker image name
         BUILD_TAG = "build-${env.BUILD_NUMBER}"  // Unique tag for each build
-        CONTAINER_PORT = '8000'  // Port inside the container
-        HOST_PORT = '8000'      // Port on the host machine
+        CONTAINER_PORT = '5000'  // Port inside the container
+        HOST_PORT = '5000'      // Port on the host machine
     }
 
     stages {
