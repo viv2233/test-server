@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 8000
 
 # Command to run the application using Gunicorn
-CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:5000", "app:app"]
+CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:8000", "app:app"]
