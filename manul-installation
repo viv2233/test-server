@@ -1,7 +1,7 @@
 sudo apt update && sudo apt install python3 python3-pip python3-venv -y
 
-git clone <your-python-app-repo-url>
-cd <your-python-app-directory>
+git clone https://github.com/viv2233/test-server.git
+cd test-server
 
 python3 -m venv venv
 source venv/bin/activate
